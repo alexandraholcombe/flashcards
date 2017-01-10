@@ -14,11 +14,15 @@
   vertical-align: middle;
 }
 
-.flashcard:hover{
+.flashcard h2:hover{
   text-transform: uppercase;
 }
 
-p {
+.flashcard p:hover{
+  font-style: italic;
+}
+
+p, ul {
   font-size: 20px;
   padding: 20px;
 }
