@@ -3,4 +3,12 @@
   box-shadow: 5px 5px 8px 5px #D3D3D3;
   width: 100%;
   height: 200px;
+  display: table;
+}
+
+.flashcard h2 {
+  text-align: center;
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
 }
