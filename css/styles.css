@@ -4,6 +4,7 @@
   width: 100%;
   height: 200px;
   display: table;
+  cursor: pointer;
 }
 
 .flashcard h2 {
@@ -13,6 +14,14 @@
   vertical-align: middle;
 }
 
+.flashcard:hover{
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 20px;
+  padding: 20px;
+}
 .row {
   margin: 20px 0px;
 }
@@ -34,6 +43,6 @@
   padding-top: 9%;
 }
 
-#js-definition {
+.definition {
   display: none;
 }
